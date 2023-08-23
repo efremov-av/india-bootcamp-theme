@@ -9,14 +9,10 @@
     ]
   },
   "responsive-layout.desktop#productSummaryList": {
-    "children": [
-      "flex-layout.row#summaryListDesktop"
-    ]
+    "children": ["flex-layout.row#summaryListDesktop"]
   },
   "responsive-layout.mobile#productSummaryList": {
-    "children": [
-      "flex-layout.row#summaryListMobile"
-    ]
+    "children": ["flex-layout.row#summaryListMobile"]
   },
   "product-price-savings#summaryPercentage": {
     "props": {
@@ -36,7 +32,7 @@
     ]
   },
   "flex-layout.row#summaryListDesktop": {
-    "props":{
+    "props": {
       "fullWidth": true,
       "colSizing": "auto",
       "blockClass": "summaryListDesktop"
@@ -64,14 +60,11 @@
     "children": [
       "vtex.store-components:product-brand#summaryListDesktop",
       "product-summary-name#summaryListDesktop",
-      "flex-layout.col#productRating",
       "flex-layout.row#productSpecifications"
     ]
   },
   "flex-layout.row#productSpecifications": {
-    "children": [
-      "product-specification-group#summary"
-    ]
+    "children": ["product-specification-group#summary"]
   },
   "product-summary-name#summaryListDesktop": {
     "props": {
@@ -100,18 +93,13 @@
       "colSizing": "auto",
       "colGap": 5
     },
-    "children": [
-      "add-to-cart-button",
-      "flex-layout.row#buyNowButton"
-    ]
+    "children": ["add-to-cart-button", "flex-layout.row#buyNowButton"]
   },
   "flex-layout.row#buyNowButton": {
     "props": {
       "blockClass": "buyNowButton"
     },
-    "children": [
-      "add-to-cart-button#buyNow"
-    ]
+    "children": ["add-to-cart-button#buyNow"]
   },
 
   "add-to-cart-button#buyNow": {
@@ -123,10 +111,7 @@
     }
   },
   "flex-layout.col#priceSummaryListDesktop": {
-    "children": [
-      "product-selling-price#summary",
-      "product-list-price#summary"
-    ]
+    "children": ["product-selling-price#summary", "product-list-price#summary"]
   },
   "stack-layout#summaryListDesktop": {
     "children": [
@@ -144,7 +129,7 @@
     }
   },
   "flex-layout.row#summaryListMobile": {
-    "props":{
+    "props": {
       "preserveLayoutOnMobile": true,
       "colSizing": "auto",
       "blockClass": "summaryListMobile",
@@ -188,8 +173,7 @@
     },
     "children": [
       "vtex.store-components:product-brand#summaryListMobile",
-      "product-summary-name#summaryListMobile",
-      "product-rating-inline"
+      "product-summary-name#summaryListMobile"
     ]
   },
   "flex-layout.col#summaryDownDetailsListMobile": {
