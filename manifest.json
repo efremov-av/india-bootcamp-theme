@@ -63,8 +63,5 @@
     "vtex.condition-layout": "2.x",
     "vtex.css-handles": "1.x"
   },
-  "peerDependencies": {
-    "alexstore.front-end-block": "0.x"
-  },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
